@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="8.576">
+    <testcase classname="SauceDemo testing" name="Sucessfully navigate to homepage" time="4.072">
+        <system-out>
+            <![CDATA[Given User navigates to homepage............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Login with Invalid credentials" time="0.463">
+        <system-out>
+            <![CDATA[When User enters Username as "user" and Password as "password"..............passed
+And User submit the login Credentials.......................................passed
+Then User not able to login sucessfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Login with Invalid credentials 2" time="0.344">
+        <system-out>
+            <![CDATA[When User enters Username as "user" and Password as ""......................passed
+And User submit the login Credentials.......................................passed
+Then User not able to login sucessfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Login with Invalid credentials 3" time="0.357">
+        <system-out>
+            <![CDATA[When User enters Username as "" and Password as "password"..................passed
+And User submit the login Credentials.......................................passed
+Then User not able to login sucessfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Login with Invalid credentials 4" time="0.352">
+        <system-out>
+            <![CDATA[When User enters Username as "" and Password as ""..........................passed
+And User submit the login Credentials.......................................passed
+Then User not able to login sucessfully.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Sucessful Log in to site" time="0.553">
+        <system-out>
+            <![CDATA[When User enters Username as "standard_user" and Password as "secret_sauce".passed
+And User submit the login Credentials.......................................passed
+Then User sucessfully logged in.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Sucessful adding product to cart" time="0.69">
+        <system-out>
+            <![CDATA[When User navigate to filter icon...........................................passed
+And User filter the Price as high to low and see the result.................passed
+And User add any three product..............................................passed
+Then User navigate to cart icon and visit to cart page......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="SauceDemo testing" name="Sucessful checking out of product" time="1.52">
+        <system-out>
+            <![CDATA[When User Checkout the Items................................................passed
+And User enters FirstName as "Standard", LastName as "User" and ZipCode as "96110".passed
+And User Continue and proceed to Overview page..............................passed
+Then User navigates to Finish and checkout completed........................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
